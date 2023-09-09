@@ -23,9 +23,9 @@ coco_classes = [
 
 cap = cv2.VideoCapture("road2.mp4")
 
-cap.set(3, 1280)  # Frame genişliğini ayarla
+cap.set(3, 1280)  
 fps = int(cap.get(cv2.CAP_PROP_FPS))
-cap.set(4, 720)  # Frame yüksekliğini ayarla
+cap.set(4, 720)  
 
 
 
